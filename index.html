@@ -148,7 +148,7 @@ header{padding:16px 28px 12px;border-bottom:1px solid var(--line);display:flex;a
   --paper:#efe8da;--card:#faf6ee;--accent:#9c7b4a;
   --sea:#3b6b78;--sea2:#5a8a94;
 }#terrain-root html, #terrain-root body{background:var(--paper);color:var(--ink);font-family:'Inter',-apple-system,sans-serif;font-size:14px;-webkit-font-smoothing:antialiased;min-height:100vh}#terrain-root .serif{font-family:'Cormorant Garamond',Georgia,serif}#terrain-root /* ===== HERO HEADER (SYNDESI style) ===== */
-.hero{position:relative;text-align:center;padding:38px 24px 30px}#terrain-root .hero-nav{display:flex;justify-content:space-between;align-items:center;max-width:1180px;margin:0 auto 28px;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink2);font-weight:500}#terrain-root .hero-nav .brand{font-family:'Cormorant Garamond',serif;font-size:15px;letter-spacing:.3em;font-weight:600}#terrain-root .hero-cart{border:1px solid var(--ink);border-radius:3px;padding:5px 12px;font-size:10px;letter-spacing:.15em}#terrain-root .wordmark{font-family:'Cormorant Garamond',serif;font-weight:500;letter-spacing:.04em;line-height:.9;color:var(--ink);font-size:clamp(56px,13vw,160px);margin:0}#terrain-root .tagline{font-size:clamp(11px,1.4vw,15px);letter-spacing:.42em;text-transform:uppercase;color:var(--ink2);margin-top:14px;font-weight:500}#terrain-root .intro{max-width:600px;margin:22px auto 0;font-size:14px;line-height:1.7;color:var(--ink2);font-weight:400}#terrain-root /* ===== CONTROLS ===== */
+.hero{position:relative;text-align:center;padding:38px 24px 30px}#terrain-root .hero-nav{display:flex;justify-content:space-between;align-items:center;max-width:1180px;margin:0 auto 28px;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink2);font-weight:500}#terrain-root .hero-nav .{font-family:'Cormorant Garamond',serif;font-size:15px;letter-spacing:.3em;font-weight:600}#terrain-root .hero-cart{border:1px solid var(--ink);border-radius:3px;padding:5px 12px;font-size:10px;letter-spacing:.15em}#terrain-root .wordmark{font-family:'Cormorant Garamond',serif;font-weight:500;letter-spacing:.04em;line-height:.9;color:var(--ink);font-size:clamp(56px,13vw,160px);margin:0}#terrain-root .tagline{font-size:clamp(11px,1.4vw,15px);letter-spacing:.42em;text-transform:uppercase;color:var(--ink2);margin-top:14px;font-weight:500}#terrain-root .intro{max-width:600px;margin:22px auto 0;font-size:14px;line-height:1.7;color:var(--ink2);font-weight:400}#terrain-root /* ===== CONTROLS ===== */
 .wrap{max-width:1180px;margin:0 auto;padding:0 28px 64px}#terrain-root .bar{display:flex;gap:14px;align-items:center;margin:30px 0 20px;flex-wrap:wrap;justify-content:center}#terrain-root .picker{position:relative;min-width:280px}#terrain-root .picker select{width:100%;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:2px;padding:13px 42px 13px 18px;font-size:13px;font-weight:500;letter-spacing:.02em;cursor:pointer;appearance:none;outline:none;font-family:'Inter',sans-serif;transition:border-color .2s;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='13' viewBox='0 0 24 24' fill='none' stroke='%232b2a26' stroke-width='1.6'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 16px center}#terrain-root .picker select:hover{border-color:var(--accent)}#terrain-root .toggle{display:flex;align-items:center;gap:8px;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--warm);cursor:pointer;user-select:none;background:var(--card);border:1px solid var(--line);border-radius:2px;padding:10px 16px}#terrain-root .toggle input{cursor:pointer;accent-color:var(--accent)}#terrain-root .hint{margin-left:auto;font-size:11px;color:var(--warm);display:flex;align-items:center;gap:7px;font-style:italic}#terrain-root .hint-dot{width:6px;height:6px;border-radius:50%;background:var(--accent);animation:pulse 2s infinite}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}#terrain-root /* ===== STAGE ===== */
 .stage{display:grid;grid-template-columns:1.55fr 1fr;gap:24px}@media(max-width:860px){#terrain-root .stage{grid-template-columns:1fr}#terrain-root .wrap{padding:0 18px 48px}}#terrain-root #canvas-wrap{position:relative;height:540px;border-radius:4px;overflow:hidden;border:1px solid var(--line);background:radial-gradient(ellipse 140% 90% at 50% 8%,#f4efe1 0%,#eadfc7 42%,#d9c8a3 75%,#c6b288 100%);box-shadow:0 20px 60px rgba(43,42,38,.18)}#terrain-root #canvas-wrap canvas{display:block}#terrain-root .canvas-overlay{position:absolute;top:20px;left:22px;pointer-events:none}#terrain-root .co-state{font-family:'Cormorant Garamond',serif;font-size:30px;font-weight:500;letter-spacing:.01em;color:#fff;text-shadow:0 2px 16px rgba(0,0,0,.45)}#terrain-root .co-sub{font-size:11px;letter-spacing:.04em;color:rgba(255,255,255,.82);margin-top:2px;text-shadow:0 1px 8px rgba(0,0,0,.5)}#terrain-root .loading{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.9);background:rgba(30,42,48,.55);z-index:5;text-align:center;padding:0 30px;line-height:1.7}#terrain-root .loading.hidden{display:none}#terrain-root .spinner{width:20px;height:20px;border:2px solid rgba(255,255,255,.25);border-top-color:#fff;border-radius:50%;animation:spin .8s linear infinite;margin-right:11px}
@@ -200,7 +200,7 @@ header{padding:16px 28px 12px;border-bottom:1px solid var(--line);display:flex;a
 <body>
 <div id="app">
   <header>
-    <div class="brand">Samarth<span class="sub">Road Safety Inequity · India</span></div>
+    <div class="brand">Atlas<span class="sub">Road Safety Inequity · India</span></div>
     <nav class="viewnav" id="viewnav">
       <div class="map-nav-item" id="map-nav-item">
         <button class="vnav active" data-view="map">Map <span class="map-caret">&#9662;</span></button>
@@ -253,7 +253,7 @@ header{padding:16px 28px 12px;border-bottom:1px solid var(--line);display:flex;a
       <div class="terrain-scroll" id="terrain-scroll">
 <div class="hero">
   <div class="hero-nav">
-    <span class="brand">SAMARTH</span>
+    <span class="brand">Atlas</span>
     <span>Road Safety Inequity · India</span>
   </div>
   <div class="tagline">Where the data meets the road</div>
@@ -280,7 +280,7 @@ header{padding:16px 28px 12px;border-bottom:1px solid var(--line);display:flex;a
   </div>
   <div class="panel" id="tr-panel"></div>
 </div>
-<div class="footer">SAMARTH · Class XII Social Entrepreneurship · MoRTH 2018–2023</div>
+<div class="footer">ATLAS · Class XII Social Entrepreneurship · MoRTH 2018–2023</div>
 </div>
 
 
